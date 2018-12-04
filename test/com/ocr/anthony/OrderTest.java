@@ -44,11 +44,11 @@ public class OrderTest {
     @Test
     public void Given_TooBigValue_When_DisplayMenuSelected_Then_DisplayErrorSentence() {
         order.displaySelectedMenu(15);
-        assertEquals("Vous n'avez pas choisi un des choix proposés comme menu\n", outContent.toString().replace("\r\n", "\n"));
+        assertEquals("Vous n'avez pas choisi un des choix proposés ...\n", outContent.toString().replace("\r\n", "\n"));
     }
     @Test
     public void Given_NegativeValue_When_DisplayMenuSelected_Then_DisplayErrorSentence() {
         order.displaySelectedMenu(-6);
-        assertEquals("Vous n'avez pas choisi un des choix proposés comme menu\n", outContent.toString().replace("\r\n", "\n"));
+        assertEquals("Vous n'avez pas choisi un des choix proposés ...\n", outContent.toString().replace("\r\n", "\n"));
     }
 }

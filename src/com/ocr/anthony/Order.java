@@ -19,6 +19,6 @@ public class Order {
         if (nbMenu == 1) { System.out.println("Vous avez choisi comme menu : poulet"); }
         else if (nbMenu == 2){ System.out.println("Vous avez choisi comme menu : boeuf"); }
         else if (nbMenu == 3){ System.out.println("Vous avez choisi comme menu : végétarien"); }
-        else { System.out.println("Vous n'avez pas choisi un des choix proposés comme menu"); }
+        else { System.out.println("Vous n'avez pas choisi un des choix proposés ..."); }
     }
 }
