@@ -29,7 +29,7 @@ public class OrderTest {
     @Test
     public void Given_Chicken_When_DisplayMenuSelected_Then_DisplayChickenSentence() {
         order.displaySelectedMenu(1);
-        assertEquals("Vous avez choisi comme menu : poulet\n", outContent.toString().replace("\r\n", "\n"));
+        assertEquals("Vous avez choisi comme menu : Djej\n", outContent.toString().replace("\r\n", "\n"));
     }
     @Test
     public void Given_Beef_When_DisplayMenuSelected_Then_DisplayBeefSentence() {
